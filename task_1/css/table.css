@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300); 
+
+.tab{
+    padding: 20px;
+    margin: 0; 
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    padding-top: 20;
+    border-collapse: collapse;
+    width: 75%;
+}
+table th {
+    padding:10px;
+}
+table td{
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+}
+.bth{
+    font-size: 14px;
+    background: #66CDAA;
+    color: darkred;
+    padding: 5px 30px;
+    text-decoration: none;
+}
+.bth:hover{
+    background: #20B2AA;
+    color: blue;
+}
