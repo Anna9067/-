@@ -7,7 +7,7 @@ body {
     width: 200px;
     height: 45px;
     line-height: 45px;
-    border-radius: 45px;
+    border-radius: 35px;
     margin: 10px 20px;
     font-family: 'Comic Sans MS', cursive, sans-serif;; 
     font-size: 11px;
@@ -32,6 +32,12 @@ body {
     margin: auto;
     margin-top: 100px;
   }
+.button_admin
+{
+  width: 240px;
+  margin: auto;
+}
+
 @import url(https://fonts.googleapis.com/css?family=Roboto:300); 
 
 .login-page {
@@ -124,6 +130,7 @@ section::after {
   width: 370px;
   padding: 25px;
   border-radius: 35px;
+  margin: auto;
 }
 
 section::before {
@@ -155,6 +162,7 @@ section::after {
   width: 370px;
   padding: 25px;
   border-radius: 35px;
+
 }
 
 
@@ -211,10 +219,10 @@ section::after {
   content: "";
   display: block;
 
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
 
-  border-radius: inherit;
+  border-radius: 20px;
 
   position: absolute;
   transform: scale(0);
